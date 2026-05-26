@@ -2,7 +2,7 @@
 
 ## Open GPT
 
-[Launch PromptOps Architect](https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect)
+<a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">Launch PromptOps Architect</a>
 
 ---
 
