@@ -97,74 +97,98 @@ The systems avoid:
 
 # Current GPT Systems
 
+---
+
 ## Enterprise IT Candidate Evaluator
 
-Enterprise hiring workflow system for:
+<p align="center">
+  <img src="./assets/icons/candidate-evaluator-icon.png" width="140"/>
+</p>
 
-* IT Support
-* Service Desk
-* Technical Support
-* Support Operations
+Enterprise hiring workflow system for:
+- IT Support
+- Service Desk
+- Technical Support
+- Support Operations
 
 Focused on:
+- ATS alignment
+- troubleshooting maturity
+- operational readiness
+- hiring risk analysis
+- support workflow evaluation
 
-* ATS alignment
-* troubleshooting maturity
-* operational readiness
-* hiring risk analysis
-* support workflow evaluation
+### Preview
+
+<p align="center">
+  <img src="./assets/screenshots/candidate-evaluator-home.png" width="900"/>
+</p>
 
 ---
 
 ## IncidentOps Analyzer
 
-Enterprise incident analysis workflow system focused on:
+<p align="center">
+  <img src="./assets/icons/incidentops-icon.png" width="140"/>
+</p>
 
-* incident triage
-* escalation readiness
-* root cause analysis
-* troubleshooting workflows
-* operational impact assessment
-* incident progression management
+Enterprise incident analysis workflow system focused on:
+- incident triage
+- escalation readiness
+- root cause analysis
+- troubleshooting workflows
+- operational impact assessment
+- incident progression management
+
+### Preview
+
+<p align="center">
+  <img src="./assets/screenshots/incidentops-home.png" width="900"/>
+</p>
 
 ---
 
 ## SupportOps Documentation Builder
 
-Enterprise documentation workflow system specialized in:
+<p align="center">
+  <img src="./assets/icons/supportops-icon.png" width="140"/>
+</p>
 
-* SOP generation
-* troubleshooting documentation
-* operational procedures
-* knowledge management workflows
-* customer-facing documentation
-* platform-adaptive formatting
+Enterprise documentation workflow system specialized in:
+- SOP generation
+- troubleshooting documentation
+- operational procedures
+- knowledge management workflows
+- customer-facing documentation
+- platform-adaptive formatting
+
+### Preview
+
+<p align="center">
+  <img src="./assets/screenshots/supportops-home.png" width="900"/>
+</p>
 
 ---
 
 ## PromptOps Architect
 
+<p align="center">
+  <img src="./assets/icons/promptops-icon.png" width="140"/>
+</p>
+
 Enterprise AI workflow system specialized in:
+- structured prompt engineering
+- context engineering
+- instruction optimization
+- AI workflow architecture
+- reusable AI workflows
+- platform-adaptive prompting
 
-* structured prompt engineering
-* context engineering
-* instruction optimization
-* AI workflow architecture
-* reusable AI workflows
-* platform-adaptive prompting
+### Preview
 
----
-
-# Future Expansion
-
-Planned future workflow systems may include:
-
-* AI onboarding systems
-* support automation workflows
-* operational copilots
-* enterprise workflow orchestration
-* AI-assisted process management
-* workflow analytics systems
+<p align="center">
+  <img src="./assets/screenshots/promptops-home.png" width="900"/>
+</p>
 
 ---
 
