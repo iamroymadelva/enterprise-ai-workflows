@@ -95,6 +95,8 @@ The workflow includes:
 | knowledge-framework.md | Prompt engineering architecture and operational framework |
 | workflow-overview.md | Multi-stage workflow explanation |
 | conversation-starters.md | Starter prompts and onboarding guidance |
+| example-use-cases.md | Real-world workflow examples and operational use cases |
+| public-gpt-link.md | Public GPT access and workflow overview |
 
 ---
 
@@ -163,3 +165,30 @@ instead of:
 - isolated prompts
 - inconsistent instructions
 - shallow AI workflows.
+
+---
+
+# Example Use Cases
+
+PromptOps Architect includes reusable workflow examples for:
+- hiring evaluation systems
+- documentation workflows
+- AI optimization workflows
+- operational incident analysis
+- reusable AI architectures
+
+Examples demonstrate:
+- progressive context gathering
+- workflow-driven prompting
+- role engineering
+- constraint definition
+- structured output optimization
+
+See:
+- [Example Use Cases](./example-use-cases.md)
+
+---
+
+# Public GPT
+
+<a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">Launch PromptOps Architect</a>
