@@ -61,45 +61,6 @@ The goal is to explore how AI can improve:
 
 ---
 
-# Sections
-
-- Executive Summary
-- Business Problem
-- Core Capabilities
-- Ecosystem Architecture
-- GPT Systems
-- Workflow Model
-- Repository Structure
-- Quick Start
-- Example Workflow
-- Design Principles
-- Roadmap
-- Public GPT Access
-
----
-
-# Business Problem
-
-Most AI repositories focus on:
-- prompt collections
-- isolated automations
-- single-step interactions
-- generic assistants
-
-This repository explores a different problem:
-
-> How can AI systems be structured as reusable operational workflows?
-
-The ecosystem is designed to improve:
-- interaction consistency
-- operational clarity
-- documentation quality
-- troubleshooting continuity
-- structured AI collaboration
-- reusable workflow systems
-
----
-
 # Core Capabilities
 
 | Capability | Description |
@@ -111,35 +72,6 @@ The ecosystem is designed to improve:
 | Hiring Operations | Structured evaluation workflows for IT Support and Service Desk hiring |
 | Workflow Continuity | Guided interactions that preserve operational context |
 | Platform-Adaptive Outputs | Response formatting adapted to operational use cases |
-
----
-
-# Workflow Model
-
-Each GPT system in this repository follows a workflow-oriented interaction model rather than generic chatbot behavior.
-
-```text
-User Input
-   ↓
-Context Gathering
-   ↓
-Workflow Classification
-   ↓
-Structured Processing
-   ↓
-Operational Output
-   ↓
-Iterative Refinement
-```
-
-The architecture prioritizes:
-- reusable workflow systems
-- operational consistency
-- structured AI interaction
-- scalable prompt architectures
-- human-in-the-loop workflows
-
----
 
 ---
 
@@ -173,6 +105,34 @@ The architecture prioritizes:
 - modular GPT systems
 - scalable prompt structures
 - structured human-AI interaction
+
+---
+
+# Repository Structure
+
+```text
+enterprise-ai-workflows/
+│
+├── assets/
+│   ├── banners/
+│   ├── diagrams/
+│   ├── icons/
+│   └── screenshots/
+│
+├── gpts/
+│   ├── enterprise-it-candidate-evaluator/
+│   ├── incidentops-analyzer/
+│   ├── promptops-architect/
+│   └── supportops-documentation-builder/
+│
+├── docs/
+│   ├── architecture/
+│   ├── workflows/
+│   └── examples/
+│
+├── README.md
+└── LICENSE
+```
 
 ---
 
@@ -210,34 +170,6 @@ Each GPT system follows a workflow-oriented interaction pattern instead of a gen
 - context preservation
 - structured response systems
 - operational formatting standards
-
----
-
-# Repository Structure
-
-```text
-enterprise-ai-workflows/
-│
-├── assets/
-│   ├── banners/
-│   ├── diagrams/
-│   ├── icons/
-│   └── screenshots/
-│
-├── gpts/
-│   ├── enterprise-it-candidate-evaluator/
-│   ├── incidentops-analyzer/
-│   ├── promptops-architect/
-│   └── supportops-documentation-builder/
-│
-├── docs/
-│   ├── architecture/
-│   ├── workflows/
-│   └── examples/
-│
-├── README.md
-└── LICENSE
-```
 
 ---
 
@@ -325,8 +257,6 @@ This approach improves:
 
 # Design Principles
 
-The repository is intentionally designed around:
-
 | Principle | Focus |
 |---|---|
 | Workflow-Driven AI | Structured operational interaction |
@@ -347,8 +277,6 @@ The repository intentionally avoids:
 ---
 
 # Current GPT Systems
-
----
 
 ## Enterprise IT Candidate Evaluator
 
