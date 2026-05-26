@@ -1,240 +1,389 @@
-# Enterprise AI Workflows — Architecture Overview
+# Architecture Overview
 
-## Overview
+This document describes the operational architecture, workflow structure, and interaction patterns used across the Enterprise AI Workflows ecosystem.
 
-Enterprise AI Workflows is a collection of structured GPT systems designed as reusable operational AI workflow architectures.
-
-The repository focuses on:
-- workflow-driven AI interaction
-- operational consistency
-- reusable AI systems
-- context engineering
-- structured troubleshooting
-- enterprise documentation systems
-- operational hiring workflows
-
-The ecosystem is designed to behave like:
-- interconnected operational AI systems
-NOT:
-- isolated prompt generators.
+The repository is designed as a modular collection of workflow-oriented GPT systems focused on operational support use cases, structured documentation, incident analysis, and reusable AI workflow design.
 
 ---
 
-# Core Philosophy
+# Architecture Purpose
 
-The ecosystem is based on the principle that AI systems should operate as:
-- structured workflows
-instead of:
-- generic conversational interfaces.
+The ecosystem is designed around a simple principle:
 
-The frameworks prioritize:
-- progressive context gathering
-- workflow continuity
-- reusable operational logic
-- platform adaptability
-- structured output generation
-- operational usability
+```text
+AI systems should behave like structured operational workflows,
+not isolated prompt interactions.
+```
 
----
+Each GPT is treated as a specialized operational component responsible for a defined workflow domain.
 
-# Shared Architectural Principles
+The architecture prioritizes:
 
-All GPT systems share:
+* workflow-oriented interaction models
+* modular operational systems
+* reusable workflow structures
+* context-aware processing
+* concise operational outputs
+* structured human-AI collaboration
 
-- multi-stage workflows
-- session continuity
-- language persistence
-- progressive refinement
-- operational response standards
-- reusable workflow logic
+The repository intentionally avoids:
 
-The systems avoid:
-- shallow prompting
-- generic AI interaction
-- context fragmentation
-- unstructured outputs
-- excessive ambiguity
+* prompt dumping
+* fake enterprise infrastructure
+* excessive governance modeling
+* unnecessary system complexity
+* artificial operational abstractions
 
 ---
 
-# Ecosystem Components
+# Ecosystem Structure
 
-## PromptOps Architect
+<p align="center">
+  <img src="../../assets/diagrams/system-architecture.png" width="1200"/>
+</p>
 
-Focus:
-- prompt engineering
-- context engineering
-- AI workflow construction
-- reusable AI systems
+The repository is organized as a modular workflow ecosystem composed of specialized GPT systems.
 
-Purpose:
-- create scalable AI interaction architectures.
+Each system focuses on a distinct operational domain while following shared workflow and interaction patterns.
+
+## Core Ecosystem Components
+
+| GPT System                        | Operational Role                                            |
+| --------------------------------- | ----------------------------------------------------------- |
+| Enterprise IT Candidate Evaluator | Structured hiring and technical evaluation workflows        |
+| IncidentOps Analyzer              | Incident analysis, escalation workflows, and RCA support    |
+| SupportOps Documentation Builder  | Operational documentation and knowledge workflow generation |
+| PromptOps Architect               | Prompt system design and reusable workflow architecture     |
 
 ---
 
-## SupportOps Documentation Builder
+# Core Workflow Model
 
-Focus:
-- SOP generation
-- KB systems
-- troubleshooting documentation
-- operational knowledge systems
+All GPT systems follow a shared workflow-oriented interaction model.
 
-Purpose:
-- create reusable enterprise documentation workflows.
+```text
+User Input
+   ↓
+Context Collection
+   ↓
+Workflow Routing
+   ↓
+Structured Processing
+   ↓
+Operational Output
+   ↓
+Iterative Refinement
+```
+
+This workflow structure improves:
+
+* operational consistency
+* context continuity
+* response structure
+* workflow reproducibility
+* documentation quality
+* output standardization
+
+Instead of relying on single-prompt interactions, the ecosystem uses staged workflows designed to progressively refine operational outputs.
+
+---
+
+# GPT System Roles
+
+## Enterprise IT Candidate Evaluator
+
+Public GPT:
+https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator
+
+Operational workflow system focused on:
+
+* IT support candidate evaluation
+* troubleshooting maturity analysis
+* operational readiness assessment
+* ATS alignment workflows
+* structured hiring feedback
+
+Primary role within the ecosystem:
+
+```text
+Technical hiring workflow orchestration
+```
 
 ---
 
 ## IncidentOps Analyzer
 
-Focus:
-- incident analysis
-- troubleshooting workflows
-- RCA systems
-- escalation analysis
-- operational risk assessment
+Public GPT:
+https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer
 
-Purpose:
-- create reusable operational incident architectures.
+Operational workflow system specialized in:
 
----
+* incident triage
+* escalation analysis
+* root cause investigation
+* troubleshooting continuity
+* operational incident assessment
 
-## Enterprise IT Candidate Evaluator
-
-Focus:
-- hiring workflows
-- operational candidate analysis
-- ATS alignment
-- troubleshooting maturity
-- support operations readiness
-
-Purpose:
-- create operationally-focused hiring evaluation systems.
-
----
-
-# Workflow Architecture Model
-
-All systems follow a similar operational structure:
+Primary role within the ecosystem:
 
 ```text
-User Intent
-    ↓
-Language Selection
-    ↓
-Workflow Context Definition
-    ↓
-Operational Context Gathering
-    ↓
-Constraint Definition
-    ↓
-Output Structure Definition
-    ↓
-Draft Generation
-    ↓
-Validation & Refinement
-    ↓
-Final Operational Output
+Structured incident operations analysis
 ```
 
 ---
 
-# Shared Workflow Philosophy
+## SupportOps Documentation Builder
 
-The ecosystem prioritizes:
-- operational clarity
-- reusable systems
-- workflow consistency
-- scalable architectures
-- maintainable AI interactions
+Public GPT:
+https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder
 
-The ecosystem avoids:
-- isolated prompting
-- inconsistent outputs
-- generic workflows
-- fragmented context handling
+Documentation-focused workflow system specialized in:
 
----
+* SOP generation
+* knowledge base workflows
+* troubleshooting documentation
+* operational procedure formatting
+* structured support documentation
 
-# Platform Adaptation
+Primary role within the ecosystem:
 
-The systems dynamically adapt depending on:
-- operational environment
-- workflow type
-- documentation platform
-- AI platform
-- audience
-- severity
-- business context
-
-Examples include:
-- ChatGPT
-- Claude
-- ServiceNow
-- Zendesk
-- Jira
-- enterprise operational systems
-
-The ecosystem must NEVER assume:
-- a default platform
-- identical operational workflows
-- universal formatting structures
+```text
+Operational documentation workflow generation
+```
 
 ---
 
-# Operational Design Goals
+## PromptOps Architect
 
-The ecosystem is designed to:
-- improve operational consistency
-- improve AI usability
-- reduce ambiguity
-- improve troubleshooting quality
-- improve documentation maintainability
-- improve workflow scalability
+Public GPT:
+https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect
 
----
+Workflow architecture system specialized in:
 
-# Session Continuity Principles
+* prompt engineering
+* context engineering
+* reusable instruction structures
+* operational prompt workflows
+* AI workflow design patterns
 
-All GPT systems maintain:
-- selected language
-- workflow context
-- operational history
-- refinement history
-- formatting preferences
-- output continuity
+Primary role within the ecosystem:
 
-The systems avoid repeatedly requesting already-known information.
+```text
+Reusable workflow architecture and prompt system design
+```
 
 ---
 
-# Progressive Workflow Systems
+# Interaction Orchestration
 
-The ecosystem treats AI interactions as:
-- iterative operational workflows
+The ecosystem is designed around workflow-oriented orchestration rather than isolated GPT usage.
 
-instead of:
-- one-shot prompt generation.
+Outputs generated by one workflow can support downstream operational processes across other systems.
 
-All systems support:
-- refinement
-- restructuring
-- operational expansion
-- audience adaptation
-- workflow iteration
+Example orchestration flow:
 
-before final output generation.
+```text
+IncidentOps Analyzer
+        ↓
+Operational Findings
+        ↓
+SupportOps Documentation Builder
+        ↓
+Structured KB / SOP Generation
+        ↓
+PromptOps Architect
+        ↓
+Workflow Refinement & Optimization
+```
+
+This interaction model allows workflows to behave as connected operational systems instead of disconnected chatbot sessions.
+
+The architecture emphasizes:
+
+* workflow chaining
+* operational continuity
+* structured refinement
+* reusable process flows
+* context-aware interaction patterns
 
 ---
 
-# Final Objective
+# Shared Workflow Patterns
 
-The objective of Enterprise AI Workflows is to demonstrate how AI systems can operate as:
-- reusable operational architectures
-- scalable workflow systems
-- structured AI interaction platforms
+All systems within the ecosystem follow shared operational design patterns.
 
-instead of:
-- isolated prompts
-- generic AI assistants
-- shallow workflow automations.
+## Intake-First Interactions
+
+Each workflow begins with structured context gathering before generating outputs.
+
+This improves:
+
+* response accuracy
+* workflow continuity
+* operational clarity
+* output relevance
+
+---
+
+## Context-Aware Processing
+
+Workflows progressively refine responses using staged interactions instead of single-pass generation.
+
+---
+
+## Structured Operational Outputs
+
+Outputs are optimized for:
+
+* readability
+* operational formatting
+* scanning UX
+* workflow clarity
+* reusable documentation
+
+---
+
+## Iterative Refinement
+
+The ecosystem prioritizes refinement loops that allow workflows to evolve progressively through user interaction.
+
+---
+
+## Modular Workflow Design
+
+Each GPT is designed as a reusable operational module with a clearly defined workflow responsibility.
+
+---
+
+# Documentation Architecture
+
+The repository separates documentation into distinct operational layers.
+
+## README
+
+The root README functions as:
+
+```text
+Repository landing page
+```
+
+Focused on:
+
+* ecosystem overview
+* workflow visibility
+* architecture presentation
+* portfolio readability
+* GitHub scanning UX
+
+---
+
+## docs/
+
+The `/docs` directory contains deeper operational documentation focused on:
+
+* architecture
+* workflow structures
+* documentation standards
+* operational models
+* implementation patterns
+
+---
+
+## assets/
+
+The `/assets` directory centralizes:
+
+* diagrams
+* screenshots
+* banners
+* icons
+* visual workflow references
+
+---
+
+## gpts/
+
+Each GPT directory contains workflow-specific documentation and implementation details related to that operational system.
+
+---
+
+# Repository Organization
+
+```text
+enterprise-ai-workflows/
+│
+├── assets/
+│   ├── banners/
+│   ├── diagrams/
+│   ├── icons/
+│   └── screenshots/
+│
+├── docs/
+│   ├── architecture/
+│   ├── workflows/
+│   ├── standards/
+│   └── examples/
+│
+├── gpts/
+│   ├── enterprise-it-candidate-evaluator/
+│   ├── incidentops-analyzer/
+│   ├── promptops-architect/
+│   └── supportops-documentation-builder/
+│
+├── README.md
+└── LICENSE
+```
+
+The repository structure is intentionally designed to support:
+
+* modular scaling
+* reusable workflows
+* documentation consistency
+* operational clarity
+* GitHub readability
+
+---
+
+# Design Principles
+
+The ecosystem follows a workflow-first operational design philosophy.
+
+## Core Principles
+
+| Principle                 | Focus                                   |
+| ------------------------- | --------------------------------------- |
+| Workflow-Oriented AI      | Structured operational interaction      |
+| Operational Clarity       | Readable and actionable outputs         |
+| Modular Systems           | Reusable workflow components            |
+| Context Engineering       | Progressive context gathering           |
+| Human-in-the-Loop Design  | AI-assisted operational workflows       |
+| Documentation Readability | Scanning-first markdown structure       |
+| Reusable Architecture     | Shared workflow patterns across systems |
+
+---
+
+# Future Expansion
+
+Planned ecosystem improvements include:
+
+* additional workflow systems
+* expanded orchestration patterns
+* reusable workflow templates
+* enhanced architecture diagrams
+* operational workflow libraries
+* expanded documentation examples
+
+---
+
+# Architecture Summary
+
+Enterprise AI Workflows is designed as a modular operational AI ecosystem focused on workflow structure, documentation clarity, and reusable interaction models.
+
+The repository emphasizes:
+
+* operational AI workflows
+* modular architecture
+* workflow orchestration
+* documentation engineering
+* structured interaction systems
+* reusable operational design
