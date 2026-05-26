@@ -1,6 +1,3 @@
-Reemplaza TODO el contenido actual de tu `README.md` principal por esto:
-
-````md
 # Enterprise AI Workflows
 
 Enterprise AI workflow systems focused on hiring operations, incident analysis, technical documentation, and structured prompt engineering.
@@ -40,7 +37,6 @@ Each GPT is designed as a structured operational system rather than a simple pro
 
 # Repository Structure
 
-```text
 enterprise-ai-workflows/
 │
 ├── gpts/
@@ -51,7 +47,6 @@ enterprise-ai-workflows/
 │
 ├── LICENSE
 └── README.md
-````
 
 ---
 
