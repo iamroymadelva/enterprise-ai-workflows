@@ -1,97 +1,175 @@
 # SupportOps Documentation Builder
 
 <p align="center">
-  <img src="../../assets/icons/supportops-icon.png" width="160"/>
+  <img src="../../assets/icons/supportops-icon.png" width="140"/>
 </p>
 
-Enterprise documentation workflow system specialized in:
-- SOP generation
-- troubleshooting documentation
-- operational procedures
-- knowledge management workflows
-- customer-facing documentation
-- reusable documentation systems
+Workflow-oriented documentation system focused on structured operational knowledge, reusable support documentation, and scalable documentation workflows.
 
 ---
 
-# Overview
+## Operational Focus
 
-SupportOps Documentation Builder is designed as an enterprise operational documentation workflow system instead of a generic AI writing assistant.
+SupportOps Documentation Builder is designed for:
 
-The framework focuses on:
-- structured operational documentation
-- scalable knowledge systems
-- reusable documentation workflows
-- troubleshooting consistency
-- workflow continuity
-- platform-adaptive formatting
+* SOP generation
+* knowledge base workflows
+* troubleshooting documentation
+* onboarding procedures
+* operational runbooks
+* escalation documentation
+* customer-facing guides
+* reusable documentation systems
 
----
-
-# Core Capabilities
-
-- SOP generation
-- KB article workflows
-- troubleshooting documentation
-- onboarding documentation
-- escalation documentation
-- operational runbooks
-- reusable documentation systems
-- customer-facing documentation
-- platform-adaptive formatting
+The system prioritizes operational documentation workflows instead of generic AI writing interactions.
 
 ---
 
-# Workflow Philosophy
-
-SupportOps Documentation Builder treats documentation as:
-- an operational workflow system
-NOT:
-- generic content generation.
-
-The system guides users progressively through:
-1. Language Selection
-2. Documentation Type
-3. Audience Definition
-4. Platform / Environment
-5. Documentation Goal
-6. Required Sections
-7. Formatting Requirements
-8. Additional Context
-9. Draft Validation
-10. Final Documentation Generation
-
----
-
-# Workflow Architecture
+## Workflow Structure
 
 <p align="center">
   <img src="../../assets/diagrams/supportops-workflow.png" width="1200"/>
 </p>
 
-SupportOps Documentation Builder uses a progressive workflow designed to:
-- improve operational clarity
-- improve documentation consistency
-- improve troubleshooting usability
-- support reusable documentation systems
-- improve knowledge transfer
+SupportOps Documentation Builder follows a staged operational workflow model.
+
+```text id="jlwmsh"
+Documentation Request
+      ↓
+Context Collection
+      ↓
+Audience Definition
+      ↓
+Workflow Structuring
+      ↓
+Formatting Strategy
+      ↓
+Operational Draft
+      ↓
+Iterative Refinement
+```
+
+The workflow is designed to improve:
+
+* documentation consistency
+* operational readability
+* troubleshooting usability
+* workflow continuity
+* reusable knowledge structures
 
 ---
 
-# Repository Files
+## Interaction Model
 
-| File | Purpose |
-|---|---|
-| instructions.md | Core GPT behavior and workflow logic |
-| knowledge-framework.md | Documentation architecture and operational framework |
-| workflow-overview.md | Multi-stage workflow explanation |
-| conversation-starters.md | Starter prompts and onboarding guidance |
-| example-use-cases.md | Real-world documentation workflow examples |
-| public-gpt-link.md | Public GPT access and workflow overview |
+The GPT uses progressive workflow stages instead of isolated content generation.
+
+### Core Workflow Patterns
+
+* intake-first interactions
+* audience-aware formatting
+* structured documentation flows
+* staged content generation
+* platform-adaptive formatting
+* iterative refinement
 
 ---
 
-# Preview
+## Supported Documentation Workflows
+
+SupportOps Documentation Builder supports workflows for:
+
+* SOP documentation
+* KB article generation
+* troubleshooting guides
+* onboarding workflows
+* escalation procedures
+* operational runbooks
+* customer-facing documentation
+* internal support documentation
+
+---
+
+## Documentation Model
+
+The workflow prioritizes structured operational documentation.
+
+### Core Documentation Areas
+
+| Area                          | Focus                                |
+| ----------------------------- | ------------------------------------ |
+| SOP Workflows                 | Structured operational procedures    |
+| Knowledge Systems             | Reusable support documentation       |
+| Troubleshooting Documentation | Operational troubleshooting clarity  |
+| Audience Adaptation           | Role-aware documentation formatting  |
+| Workflow Continuity           | Structured documentation progression |
+
+---
+
+## Workflow Characteristics
+
+Outputs are optimized for:
+
+* markdown readability
+* operational clarity
+* concise formatting
+* scanning UX
+* reusable structures
+* platform adaptability
+
+---
+
+## Example Workflow Requests
+
+* Create a troubleshooting SOP
+* Generate a customer-facing KB article
+* Build an escalation procedure
+* Convert raw notes into structured documentation
+
+---
+
+## Example Workflow
+
+```text id="jlwmsg"
+Raw Operational Notes
+      ↓
+Context Structuring
+      ↓
+Audience Definition
+      ↓
+Workflow Formatting
+      ↓
+Documentation Draft
+      ↓
+Formatting Refinement
+      ↓
+Final Operational Documentation
+```
+
+---
+
+## Repository Structure
+
+```text id="jlwmsf"
+supportops-documentation-builder/
+│
+├── README.md
+├── architecture.md
+├── workflow.md
+├── examples.md
+└── screenshots/
+```
+
+---
+
+## Public GPT Access
+
+<a href="https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder" target="_blank">
+Launch SupportOps Documentation Builder
+</a>
+
+---
+
+## Preview
 
 <p align="center">
   <img src="../../assets/screenshots/supportops-home.png" width="1000"/>
@@ -99,107 +177,39 @@ SupportOps Documentation Builder uses a progressive workflow designed to:
 
 ---
 
-# Design Principles
+## Documentation
 
-The framework prioritizes:
-- operational usability
-- workflow consistency
-- scalable knowledge systems
-- structured documentation
-- platform adaptability
-- maintainable workflows
+Additional documentation:
 
-The framework avoids:
-- vague documentation
-- generic AI writing
-- inconsistent workflows
-- fragmented knowledge systems
-- unnecessary verbosity
+* [Architecture](./architecture.md)
+* [Workflow Structure](./workflow.md)
+* [Workflow Examples](./examples.md)
 
 ---
 
-# Supported Documentation Types
+## Operational Principles
 
-Examples include:
-- SOPs
-- KB articles
-- troubleshooting guides
-- onboarding documentation
-- operational procedures
-- escalation workflows
-- customer-facing guides
-- runbooks
+SupportOps Documentation Builder is designed around:
 
-The framework dynamically adapts depending on:
-- documentation type
-- audience
-- platform
-- workflow requirements
+* structured documentation workflows
+* reusable knowledge systems
+* operational readability
+* workflow continuity
+* maintainable documentation structures
+* audience-aware formatting
 
----
+The system intentionally avoids:
 
-# Platform Adaptation
-
-The framework supports documentation adapted to:
-- ServiceNow
-- Zendesk
-- Jira
-- Confluence
-- Freshservice
-- internal workflow systems
-- custom enterprise environments
-
-The GPT must NEVER assume a default platform or formatting structure.
+* vague documentation
+* generic AI writing
+* fragmented knowledge structures
+* inconsistent formatting
+* unnecessary verbosity
 
 ---
 
-# Interaction Model
+## Repository Role
 
-SupportOps Documentation Builder behaves like:
-- a Technical Documentation Specialist
-- a Knowledge Management Consultant
-- a Support Operations Architect
+SupportOps Documentation Builder functions as the operational documentation workflow module within the Enterprise AI Workflows ecosystem.
 
-It is NOT designed to behave like a generic writing assistant.
-
----
-
-# Example Use Cases
-
-SupportOps Documentation Builder includes reusable workflow examples for:
-- SOP generation
-- KB article workflows
-- onboarding documentation
-- troubleshooting systems
-- operational procedures
-- escalation documentation
-
-Examples demonstrate:
-- structured documentation workflows
-- audience adaptation
-- operational formatting
-- reusable knowledge systems
-
-See:
-- [Example Use Cases](./example-use-cases.md)
-
----
-
-# Public GPT
-
-<a href="https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder" target="_blank">Launch SupportOps Documentation Builder</a>
-
----
-
-# Final Objective
-
-The objective of SupportOps Documentation Builder is to create:
-- scalable operational documentation systems
-- reusable KB workflows
-- maintainable SOP structures
-- enterprise documentation architectures
-
-instead of:
-- generic AI-generated documentation
-- inconsistent procedures
-- unstructured knowledge systems.
+The workflow architecture focuses on structured documentation orchestration, reusable knowledge systems, and operational documentation consistency.
