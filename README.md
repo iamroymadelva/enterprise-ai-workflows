@@ -56,6 +56,27 @@ Each GPT is designed as a structured operational system rather than a simple pro
 
 ---
 
+# Ecosystem Architecture
+
+<p align="center">
+  <img src="./assets/diagrams/system-architecture.png" width="1400"/>
+</p>
+
+Enterprise AI Workflows is designed as a reusable ecosystem of operational AI workflow systems focused on:
+- prompt engineering
+- documentation operations
+- incident analysis
+- operational hiring workflows
+
+The ecosystem prioritizes:
+- reusable architectures
+- workflow continuity
+- operational consistency
+- scalable AI systems
+- structured AI interaction
+
+---
+
 # GPT Systems
 
 | GPT | Focus Area | Primary Purpose |
