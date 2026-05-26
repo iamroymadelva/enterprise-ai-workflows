@@ -1,46 +1,57 @@
-# SupportOps Documentation Builder — Workflow Overview
+# SupportOps Workflow
 
-## Purpose
+This document describes the operational workflow lifecycle, staged interaction model, and documentation orchestration patterns used by SupportOps Documentation Builder.
 
-SupportOps Documentation Builder uses a structured multi-stage workflow system instead of generating documentation immediately.
-
-The workflow is designed to:
-- improve operational clarity
-- improve documentation consistency
-- reduce ambiguity
-- support reusable documentation systems
-- improve knowledge transfer
-- improve troubleshooting workflows
+The workflow is designed to support structured operational documentation, reusable knowledge systems, and audience-aware documentation workflows through progressive operational interactions.
 
 ---
 
-# Workflow Architecture
+# Workflow Philosophy
 
-```text
-User Request
-    ↓
-Language Selection
-    ↓
-Documentation Type
-    ↓
+SupportOps Documentation Builder treats documentation as a structured operational workflow instead of generic AI-generated writing.
+
+The workflow prioritizes:
+
+* operational readability
+* structured documentation flows
+* reusable knowledge systems
+* audience-aware formatting
+* workflow continuity
+* iterative refinement
+
+The system is designed to progressively improve documentation clarity and operational usability throughout the workflow lifecycle.
+
+---
+
+# Shared Workflow Lifecycle
+
+SupportOps Documentation Builder follows a staged documentation workflow model.
+
+```text id="jlwms9"
+Documentation Request
+      ↓
+Context Collection
+      ↓
 Audience Definition
-    ↓
-Platform / Environment
-    ↓
-Documentation Goal
-    ↓
-Required Sections
-    ↓
-Formatting Requirements
-    ↓
-Additional Context
-    ↓
-Documentation Draft
-    ↓
+      ↓
+Workflow Structuring
+      ↓
+Formatting Strategy
+      ↓
+Operational Draft
+      ↓
 Validation & Refinement
-    ↓
-Final Documentation
+      ↓
+Final Documentation Output
 ```
+
+This structure improves:
+
+* documentation consistency
+* troubleshooting clarity
+* knowledge transfer
+* formatting quality
+* workflow reproducibility
 
 ---
 
@@ -48,234 +59,297 @@ Final Documentation
 
 ## 1. Language Selection
 
-The system asks the user which language should be used during the session.
+The workflow begins by identifying the preferred documentation language.
 
-The selected language must remain consistent throughout:
-- menus
-- workflows
-- refinements
-- generated documentation
-- recommendations
+Supported languages:
 
-The language may only change if explicitly requested by the user.
+* English
+* Español
+
+The selected language remains consistent throughout the documentation workflow unless explicitly changed.
 
 ---
 
-## 2. Documentation Type
+## 2. Documentation Classification
 
-The workflow identifies which type of documentation the user needs.
+The workflow identifies the operational documentation type.
 
-Examples:
-- SOP
-- KB article
-- troubleshooting guide
-- onboarding document
-- runbook
-- operational procedure
-- escalation guide
-- customer-facing article
+Supported workflows include:
 
-The framework must support custom documentation types.
+* SOP generation
+* KB articles
+* troubleshooting guides
+* onboarding documentation
+* escalation procedures
+* operational runbooks
+* customer-facing documentation
+
+Custom documentation workflows are also supported.
 
 ---
 
 ## 3. Audience Definition
 
-The workflow identifies who the documentation is intended for.
+The workflow determines the intended documentation audience.
 
-Examples:
-- support analysts
-- customers
-- engineers
-- managers
-- administrators
-- non-technical users
+Supported audience types include:
 
-Audience adaptation improves:
-- readability
-- usability
-- operational alignment
-- workflow clarity
+* Internal IT Teams
+* Service Desk Agents
+* Engineers
+* End Users
+* Customers
+* Executives
 
----
+Audience selection influences:
 
-## 4. Platform / Environment
-
-The system identifies if the documentation should adapt to:
-- platforms
-- ITSM systems
-- internal workflows
-- operational environments
-
-Examples:
-- ServiceNow
-- Zendesk
-- Jira
-- Confluence
-- Freshservice
-- internal workflow systems
-
-The framework must NEVER assume a default platform.
+* formatting structure
+* workflow detail
+* terminology
+* readability level
+* operational depth
 
 ---
 
-## 5. Documentation Goal
+## 4. Context Collection
 
-The workflow identifies the operational objective.
+The workflow gathers operational information before documentation generation begins.
 
-Examples:
-- explain
-- standardize
-- troubleshoot
-- onboard
-- escalate
-- operationalize
+Typical workflow inputs include:
 
-The GOAL defines:
-- the operational purpose
-NOT:
-- the formatting structure.
+* troubleshooting notes
+* operational procedures
+* incident summaries
+* onboarding instructions
+* escalation workflows
+* platform requirements
+* formatting expectations
+
+The workflow intentionally avoids generating documentation without operational context.
 
 ---
 
-## 6. Required Sections
+## 5. Workflow Structuring
 
-The workflow identifies which sections should be included.
+The workflow organizes documentation into structured operational sections.
 
-Examples:
-- prerequisites
-- instructions
-- troubleshooting
-- escalation guidance
-- rollback procedures
-- expected outcomes
-- warnings
-- screenshots
-- references
+```text id="jlwms8"
+Operational Context
+      ↓
+Workflow Organization
+      ↓
+Section Structuring
+      ↓
+Formatting Alignment
+      ↓
+Operational Draft
+```
 
 This improves:
-- consistency
-- maintainability
-- operational usability
+
+* documentation consistency
+* scanning readability
+* workflow usability
+* reusable structures
 
 ---
 
-## 7. Formatting Requirements
+## 6. Formatting Strategy
 
-The workflow identifies how the final documentation should be structured.
+The workflow adapts documentation formatting depending on the target platform or structure.
 
-Examples:
-- Markdown
-- HTML
-- plain text
-- enterprise KB structure
-- SOP format
-- numbered workflows
+Supported formats include:
 
-Custom formatting structures must always be supported.
+* Markdown
+* SOP structure
+* KB article structure
+* internal wiki formatting
+* runbook formatting
+* customer-facing formatting
+
+The workflow intentionally avoids assuming a default documentation structure.
 
 ---
 
-## 8. Additional Context
+## 7. Operational Draft Generation
 
-The workflow gathers:
-- screenshots
-- templates
-- workflows
-- examples
-- references
-- operational notes
-- source documentation
+The workflow generates a structured operational draft before final refinement.
+
+Outputs prioritize:
+
+* markdown readability
+* operational clarity
+* concise formatting
+* reusable structures
+* troubleshooting usability
+* scanning UX
+
+---
+
+## 8. Validation & Refinement
+
+SupportOps Documentation Builder uses iterative refinement workflows instead of single-pass generation.
+
+```text id="jlwms7"
+Initial Draft
+      ↓
+Structural Review
+      ↓
+Formatting Refinement
+      ↓
+Workflow Improvements
+      ↓
+Final Documentation
+```
 
 This improves:
-- context completeness
-- documentation accuracy
-- operational usability
+
+* workflow consistency
+* operational readability
+* formatting quality
+* maintainability
+* documentation usability
 
 ---
 
-## 9. Documentation Draft
+# Context Collection Model
 
-Before finalizing documentation, the system generates:
+SupportOps Documentation Builder uses progressive context gathering instead of isolated prompt-response interactions.
 
-# DOCUMENTATION DRAFT
+```text id="jlwms6"
+Initial Request
+      ↓
+Workflow Clarification
+      ↓
+Audience Identification
+      ↓
+Documentation Structuring
+      ↓
+Formatting Alignment
+      ↓
+Operational Output
+```
 
-This allows:
-- validation
-- refinement
-- restructuring
-- section additions
-- formatting improvements
+This improves:
 
-Documentation workflows should always support iteration.
-
----
-
-## 10. Validation & Refinement
-
-The workflow supports:
-- structural refinement
-- formatting optimization
-- simplification
-- technical expansion
-- audience adaptation
-- workflow improvements
-
-Operational documentation should always be iterative.
+* workflow continuity
+* documentation relevance
+* formatting consistency
+* operational usability
 
 ---
 
-# Workflow Philosophy
+# Audience Adaptation Workflow
 
-SupportOps Documentation Builder treats documentation as:
-- an operational workflow system
-NOT:
-- generic content generation.
+The workflow dynamically adapts outputs depending on the selected audience.
 
-The framework prioritizes:
-- operational usability
-- knowledge transfer
-- workflow consistency
-- maintainable documentation systems
-- scalable operational knowledge
+## Adaptation Areas
 
----
+* technical depth
+* workflow complexity
+* terminology
+* formatting structure
+* readability level
+* operational detail
 
-# Placeholder Philosophy
-
-If screenshots are required, the framework uses placeholders such as:
-
-[INSERT SCREENSHOT — LOGIN PAGE]
-
-[INSERT IMAGE — SYSTEM SETTINGS]
-
-[INSERT SCREENSHOT — INCIDENT EXAMPLE]
-
-The system must NEVER invent screenshots or diagrams not provided by the user.
+This improves documentation usability across multiple operational roles.
 
 ---
 
-# Core Benefits
+# Documentation Formatting Workflow
 
-The workflow helps improve:
-- documentation consistency
-- operational clarity
-- troubleshooting usability
-- workflow maintainability
-- support scalability
-- knowledge transfer
+The workflow supports structured formatting adaptation.
+
+## Formatting Areas
+
+* SOP formatting
+* KB structures
+* runbook layouts
+* troubleshooting sections
+* escalation workflows
+* operational summaries
+
+This improves:
+
+* documentation consistency
+* maintainability
+* workflow clarity
+* knowledge reuse
 
 ---
 
-# Final Objective
+# Workflow Continuity
 
-The final objective is to create:
-- scalable operational documentation systems
-- reusable KB workflows
-- maintainable SOP structures
-- enterprise documentation architectures
+SupportOps Documentation Builder preserves workflow continuity throughout the documentation lifecycle.
 
-instead of:
-- generic AI-generated documentation
-- unstructured procedures
-- inconsistent knowledge systems.
+The workflow maintains:
+
+* audience selection
+* formatting preferences
+* operational context
+* documentation goals
+* refinement history
+* workflow structure
+
+This prevents repetitive interactions and improves documentation consistency.
+
+---
+
+# Output Characteristics
+
+Operational outputs prioritize:
+
+* concise formatting
+* markdown readability
+* structured workflows
+* reusable documentation
+* operational clarity
+* scanning-first layouts
+
+---
+
+# Example Documentation Workflow
+
+```text id="jlwms5"
+Raw Operational Notes
+      ↓
+Audience Definition
+      ↓
+Workflow Structuring
+      ↓
+Formatting Strategy
+      ↓
+Operational Draft
+      ↓
+Documentation Refinement
+      ↓
+Final KB / SOP Output
+```
+
+---
+
+# Workflow Principles
+
+| Principle                | Focus                                      |
+| ------------------------ | ------------------------------------------ |
+| Structured Documentation | Workflow-oriented documentation generation |
+| Audience Awareness       | Role-adaptive formatting                   |
+| Workflow Continuity      | Progressive documentation refinement       |
+| Operational Readability  | Scanning-first markdown outputs            |
+| Reusable Structures      | Maintainable knowledge systems             |
+| Formatting Consistency   | Structured operational layouts             |
+
+---
+
+# Workflow Summary
+
+SupportOps Documentation Builder is designed as a structured operational documentation workflow focused on reusable knowledge systems, workflow consistency, and maintainable documentation structures.
+
+The workflow architecture emphasizes:
+
+* staged documentation workflows
+* audience-aware formatting
+* iterative refinement
+* operational readability
+* reusable workflow structures
+* documentation continuity
