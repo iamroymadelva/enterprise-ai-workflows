@@ -99,6 +99,10 @@ The systems avoid:
 
 ---
 
+# Current GPT Systems
+
+---
+
 ## Enterprise IT Candidate Evaluator
 
 <p align="center">
@@ -118,10 +122,14 @@ Focused on:
 - hiring risk analysis
 - support workflow evaluation
 
+### Open GPT
+
+<a href="https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator" target="_blank">Launch Enterprise IT Candidate Evaluator</a>
+
 ### Preview
 
 <p align="center">
-  <img src="./assets/screenshots/candidate-evaluator-home.png" width="900"/>
+  <img src="./assets/screenshots/candidate-evaluator-home.png" width="1000"/>
 </p>
 
 ---
@@ -140,10 +148,14 @@ Enterprise incident analysis workflow system focused on:
 - operational impact assessment
 - incident progression management
 
+### Open GPT
+
+<a href="https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer" target="_blank">Launch IncidentOps Analyzer</a>
+
 ### Preview
 
 <p align="center">
-  <img src="./assets/screenshots/incidentops-home.png" width="900"/>
+  <img src="./assets/screenshots/incidentops-home.png" width="1000"/>
 </p>
 
 ---
@@ -162,10 +174,14 @@ Enterprise documentation workflow system specialized in:
 - customer-facing documentation
 - platform-adaptive formatting
 
+### Open GPT
+
+<a href="https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder" target="_blank">Launch SupportOps Documentation Builder</a>
+
 ### Preview
 
 <p align="center">
-  <img src="./assets/screenshots/supportops-home.png" width="900"/>
+  <img src="./assets/screenshots/supportops-home.png" width="1000"/>
 </p>
 
 ---
@@ -184,10 +200,14 @@ Enterprise AI workflow system specialized in:
 - reusable AI workflows
 - platform-adaptive prompting
 
+### Open GPT
+
+<a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">Launch PromptOps Architect</a>
+
 ### Preview
 
 <p align="center">
-  <img src="./assets/screenshots/promptops-home.png" width="900"/>
+  <img src="./assets/screenshots/promptops-home.png" width="1000"/>
 </p>
 
 ---
