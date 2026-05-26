@@ -37,6 +37,7 @@ Each GPT is designed as a structured operational system rather than a simple pro
 
 # Repository Structure
 
+```text
 enterprise-ai-workflows/
 │
 ├── gpts/
@@ -47,7 +48,7 @@ enterprise-ai-workflows/
 │
 ├── LICENSE
 └── README.md
-
+```
 ---
 
 # Core Architecture
