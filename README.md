@@ -1,4 +1,7 @@
 <p align="center">
+  <img src="./assets/banners/repo-banner.png" width="100%"/>
+</p>
+<p align="center">
   <img src="./assets/icons/promptops-icon.png" width="120"/>
 </p>
 
