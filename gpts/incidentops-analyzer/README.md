@@ -68,7 +68,7 @@ The GPT uses progressive workflow stages instead of isolated troubleshooting res
 
 ---
 
-## Operational Capabilities
+## Supported Incident Workflows
 
 IncidentOps Analyzer supports workflows for:
 
