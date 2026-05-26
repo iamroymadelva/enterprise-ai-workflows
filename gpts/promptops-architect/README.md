@@ -62,6 +62,31 @@ The system guides users progressively through:
 
 ---
 
+---
+
+# Workflow Architecture
+
+<p align="center">
+  <img src="../../assets/diagrams/promptops-workflow.png" width="1200"/>
+</p>
+
+PromptOps Architect uses a progressive multi-stage workflow system designed to:
+- reduce ambiguity
+- improve AI alignment
+- improve prompt consistency
+- support reusable AI workflows
+- structure AI interactions professionally
+
+The workflow includes:
+- language continuity
+- AI platform adaptation
+- role engineering
+- constraint definition
+- output structuring
+- iterative refinement loops
+
+---
+
 # Repository Files
 
 | File | Purpose |
