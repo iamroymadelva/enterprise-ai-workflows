@@ -1,3 +1,35 @@
+<p align="center">
+  <img src="./assets/icons/promptops-icon.png" width="120"/>
+</p>
+
+<h1 align="center">Enterprise AI Workflows</h1>
+
+<p align="center">
+Enterprise AI workflow systems for hiring operations, incident analysis, technical documentation, and structured prompt engineering.
+</p>
+
+<p align="center">
+
+<a href="https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator" target="_blank">
+<img src="https://img.shields.io/badge/GPT-Candidate_Evaluator-111111?style=for-the-badge">
+</a>
+
+<a href="https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer" target="_blank">
+<img src="https://img.shields.io/badge/GPT-IncidentOps-111111?style=for-the-badge">
+</a>
+
+<a href="https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder" target="_blank">
+<img src="https://img.shields.io/badge/GPT-SupportOps-111111?style=for-the-badge">
+</a>
+
+<a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">
+<img src="https://img.shields.io/badge/GPT-PromptOps-111111?style=for-the-badge">
+</a>
+
+</p>
+
+---
+
 # Enterprise AI Workflows
 
 Enterprise AI workflow systems focused on hiring operations, incident analysis, technical documentation, and structured prompt engineering.
