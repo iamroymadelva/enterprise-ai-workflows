@@ -1,7 +1,7 @@
 # Enterprise IT Candidate Evaluator
 
 <p align="center">
-  <img src="../../assets/icons/candidate-evaluator-icon.png" width="160"/>
+  <img src="/assets/icons/candidate-evaluator-icon.png" width="160"/>
 </p>
 
 Operational hiring workflow system specialized in:
@@ -64,7 +64,7 @@ The system guides users progressively through:
 # Workflow Architecture
 
 <p align="center">
-  <img src="../../assets/diagrams/candidate-evaluator-workflow.png" width="1200"/>
+  <img src="/assets/diagrams/candidate-evaluator-workflow.png" width="1200"/>
 </p>
 
 Enterprise IT Candidate Evaluator uses a structured workflow designed to:
@@ -89,7 +89,7 @@ Enterprise IT Candidate Evaluator uses a structured workflow designed to:
 # Preview
 
 <p align="center">
-  <img src="../../assets/screenshots/candidate-evaluator-home.png" width="1000"/>
+  <img src="/assets/screenshots/candidate-evaluator-home.png" width="1000"/>
 </p>
 
 ---
@@ -146,7 +146,9 @@ It is NOT designed to behave like a generic HR chatbot.
 
 # Public GPT
 
-<a href="https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator" target="_blank">Launch Enterprise IT Candidate Evaluator</a>
+<a href="https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator" target="_blank">
+Launch Enterprise IT Candidate Evaluator
+</a>
 
 ---
 
