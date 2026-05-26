@@ -1,106 +1,177 @@
 # PromptOps Architect
 
 <p align="center">
-  <img src="../../assets/icons/promptops-icon.png" width="160"/>
+  <img src="../../assets/icons/promptops-icon.png" width="140"/>
 </p>
 
-Enterprise AI workflow system specialized in:
-- structured prompt engineering
-- context engineering
-- instruction optimization
-- reusable AI workflows
-- platform-adaptive prompting
+Workflow-oriented AI architecture system focused on structured prompting, context engineering, and reusable AI workflow design.
 
 ---
 
-# Overview
+## Operational Focus
 
-PromptOps Architect is designed as a structured AI workflow architecture system instead of a generic prompt generator.
+PromptOps Architect is designed for:
 
-The system focuses on:
-- workflow-driven AI interaction
-- instruction hierarchy
-- reusable prompt systems
-- ambiguity reduction
-- output optimization
-- multi-stage AI workflows
+* AI workflow architecture
+* structured prompt systems
+* context engineering
+* instruction optimization
+* reusable AI workflows
+* constraint design
+* output structuring
+* platform-adaptive prompting
 
----
-
-# Core Capabilities
-
-- Structured prompt construction
-- AI workflow architecture
-- Context engineering
-- Prompt refinement
-- Instruction optimization
-- Role-based prompting
-- Platform-adaptive prompting
-- Constraint engineering
-- Output structure optimization
+The system prioritizes structured AI workflows instead of isolated prompt generation.
 
 ---
 
-# Workflow Philosophy
-
-PromptOps Architect treats prompt engineering as:
-- workflow architecture
-NOT:
-- isolated prompt writing.
-
-The system guides users progressively through:
-1. Language Selection
-2. AI Platform Selection
-3. Goal Definition
-4. Role Definition
-5. Task Definition
-6. Constraints & Specifications
-7. Output Formatting
-8. Additional Context
-9. Draft Validation
-10. Final Prompt Generation
-
----
-
----
-
-# Workflow Architecture
+## Workflow Structure
 
 <p align="center">
   <img src="../../assets/diagrams/promptops-workflow.png" width="1200"/>
 </p>
 
-PromptOps Architect uses a progressive multi-stage workflow system designed to:
-- reduce ambiguity
-- improve AI alignment
-- improve prompt consistency
-- support reusable AI workflows
-- structure AI interactions professionally
+PromptOps Architect follows a staged AI workflow architecture model.
 
-The workflow includes:
-- language continuity
-- AI platform adaptation
-- role engineering
-- constraint definition
-- output structuring
-- iterative refinement loops
+```text id="jlwmq4"
+AI Goal
+      ↓
+Platform Selection
+      ↓
+Role Definition
+      ↓
+Task Structuring
+      ↓
+Constraint Engineering
+      ↓
+Output Design
+      ↓
+Prompt Refinement
+      ↓
+Reusable Workflow Generation
+```
+
+The workflow is designed to improve:
+
+* instruction clarity
+* AI alignment
+* workflow consistency
+* context quality
+* reusable AI interactions
 
 ---
 
-# Repository Files
+## Interaction Model
 
-| File | Purpose |
-|---|---|
-| instructions.md | Core GPT behavior and workflow logic |
-| knowledge-framework.md | Prompt engineering architecture and operational framework |
-| workflow-overview.md | Multi-stage workflow explanation |
-| conversation-starters.md | Starter prompts and onboarding guidance |
-| example-use-cases.md | Real-world workflow examples and operational use cases |
-| public-gpt-link.md | Public GPT access and workflow overview |
+The GPT uses progressive workflow stages instead of isolated prompt generation.
+
+### Core Workflow Patterns
+
+* intake-first interactions
+* instruction hierarchy
+* context-aware prompting
+* staged workflow construction
+* constraint engineering
+* iterative refinement
 
 ---
 
-# Preview
+## Supported AI Workflow Types
+
+PromptOps Architect supports workflows for:
+
+* AI workflow design
+* reusable prompt systems
+* role-based prompting
+* instruction refinement
+* operational AI workflows
+* context engineering
+* AI behavior shaping
+* structured output generation
+
+---
+
+## Workflow Architecture Model
+
+The workflow prioritizes structured AI interaction design.
+
+### Core Architecture Areas
+
+| Area                     | Focus                             |
+| ------------------------ | --------------------------------- |
+| Instruction Architecture | Structured AI instruction systems |
+| Context Engineering      | Context-aware workflow design     |
+| Constraint Design        | Behavioral and formatting control |
+| Workflow Structuring     | Multi-stage AI interaction flows  |
+| Output Optimization      | Readable and reusable outputs     |
+
+---
+
+## Workflow Characteristics
+
+Outputs are optimized for:
+
+* operational clarity
+* markdown readability
+* reusable workflow structures
+* concise formatting
+* AI alignment
+* structured interaction design
+
+---
+
+## Example Workflow Requests
+
+* Build a reusable AI workflow
+* Optimize this existing prompt
+* Create a role-based AI system
+* Structure a multi-stage AI interaction
+
+---
+
+## Example Workflow
+
+```text id="jlwmq3"
+Workflow Objective
+      ↓
+AI Platform Selection
+      ↓
+Role Engineering
+      ↓
+Constraint Definition
+      ↓
+Context Structuring
+      ↓
+Prompt Optimization
+      ↓
+Reusable AI Workflow
+```
+
+---
+
+## Repository Structure
+
+```text id="jlwmq2"
+promptops-architect/
+│
+├── README.md
+├── architecture.md
+├── workflow.md
+├── examples.md
+└── screenshots/
+```
+
+---
+
+## Public GPT Access
+
+<a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">
+Launch PromptOps Architect
+</a>
+
+---
+
+## Preview
 
 <p align="center">
   <img src="../../assets/screenshots/promptops-home.png" width="1000"/>
@@ -108,87 +179,39 @@ The workflow includes:
 
 ---
 
-# Design Principles
+## Documentation
 
-The framework prioritizes:
-- clarity
-- workflow structure
-- context quality
-- reusable systems
-- scalable AI workflows
-- platform adaptability
+Additional documentation:
 
-The framework avoids:
-- vague prompts
-- generic AI interactions
-- shallow workflows
-- excessive complexity
-- fragmented instructions
+* [Architecture](./architecture.md)
+* [Workflow Structure](./workflow.md)
+* [Workflow Examples](./examples.md)
 
 ---
 
-# Supported AI Platforms
+## Operational Principles
 
-Examples include:
-- ChatGPT
-- Claude
-- Gemini
-- Cursor
-- Copilot
-- Midjourney
-- Custom AI systems
+PromptOps Architect is designed around:
 
-The framework dynamically adapts prompts depending on the selected AI platform.
+* structured AI workflows
+* instruction hierarchy
+* reusable interaction systems
+* context-aware prompting
+* iterative refinement
+* workflow continuity
 
----
+The system intentionally avoids:
 
-# Interaction Model
-
-PromptOps Architect behaves like:
-- a Senior Prompt Engineer
-- an AI Workflow Architect
-- a Context Engineering Specialist
-
-It is NOT designed to behave like a generic chatbot prompt generator.
+* vague prompts
+* fragmented instructions
+* generic AI interactions
+* shallow workflow design
+* inconsistent output structures
 
 ---
 
-# Final Objective
+## Repository Role
 
-The objective of PromptOps Architect is to help create:
-- reusable prompt systems
-- structured AI workflows
-- scalable instruction architectures
-- operational AI interaction systems
+PromptOps Architect functions as the AI workflow architecture module within the Enterprise AI Workflows ecosystem.
 
-instead of:
-- isolated prompts
-- inconsistent instructions
-- shallow AI workflows.
-
----
-
-# Example Use Cases
-
-PromptOps Architect includes reusable workflow examples for:
-- hiring evaluation systems
-- documentation workflows
-- AI optimization workflows
-- operational incident analysis
-- reusable AI architectures
-
-Examples demonstrate:
-- progressive context gathering
-- workflow-driven prompting
-- role engineering
-- constraint definition
-- structured output optimization
-
-See:
-- [Example Use Cases](./example-use-cases.md)
-
----
-
-# Public GPT
-
-<a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">Launch PromptOps Architect</a>
+The workflow architecture focuses on reusable AI interaction systems, structured instruction design, and workflow-oriented prompt engineering.
