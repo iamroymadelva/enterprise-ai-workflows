@@ -25,6 +25,10 @@ The system prioritizes operational workflows instead of generic troubleshooting 
 
 ## Workflow Structure
 
+<p align="center">
+  <img src="../../assets/diagrams/incidentops-workflow.png" width="1200"/>
+</p>
+
 IncidentOps Analyzer follows a staged operational workflow model.
 
 ```text
@@ -109,6 +113,15 @@ Outputs are optimized for:
 * escalation readiness
 * structured troubleshooting
 * reusable incident documentation
+
+---
+
+## Example Workflow Requests
+
+* Analyze this production incident
+* Generate an RCA for this outage
+* Evaluate this escalation scenario
+* Create a structured incident report
 
 ---
 
