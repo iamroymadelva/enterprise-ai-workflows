@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./assets/banners/repo-banner.png" width="100%"/>
 </p>
+
 <p align="center">
   <img src="./assets/icons/promptops-icon.png" width="120"/>
 </p>
@@ -8,7 +9,7 @@
 <h1 align="center">Enterprise AI Workflows</h1>
 
 <p align="center">
-Enterprise AI workflow systems for hiring operations, incident analysis, technical documentation, and structured prompt engineering.
+Operational AI workflow systems for technical operations, documentation engineering, incident analysis, hiring workflows, and structured prompt architecture.
 </p>
 
 <p align="center">
@@ -33,61 +34,153 @@ Enterprise AI workflow systems for hiring operations, incident analysis, technic
 
 ---
 
-# Enterprise AI Workflows
+# Executive Summary
 
-Enterprise AI workflow systems focused on hiring operations, incident analysis, technical documentation, and structured prompt engineering.
+Enterprise AI Workflows is a structured ecosystem of operational GPT systems designed for:
 
-This repository contains workflow-driven GPT systems designed to improve operational consistency, structured AI interactions, troubleshooting workflows, documentation processes, and reusable AI architectures for enterprise environments.
+- technical operations
+- incident analysis
+- support documentation
+- hiring workflows
+- prompt architecture
+
+The repository focuses on workflow-driven AI systems rather than isolated prompts or generic chatbot interactions.
+
+Each GPT is designed as:
+- a reusable operational workflow
+- a structured interaction system
+- a context-aware process engine
+- a multi-stage AI workflow architecture
+
+The goal is to explore how AI can improve:
+- operational consistency
+- documentation quality
+- troubleshooting workflows
+- structured AI collaboration
+- reusable workflow design
 
 ---
 
-# Project Philosophy
+# Sections
 
-This repository is not focused on “prompt collections”.
+- Executive Summary
+- Business Problem
+- Core Capabilities
+- Ecosystem Architecture
+- GPT Systems
+- Workflow Model
+- Repository Structure
+- Quick Start
+- Example Workflow
+- Design Principles
+- Roadmap
+- Public GPT Access
 
-It is focused on:
+---
 
-- AI workflow architecture
-- operational AI systems
-- structured human-AI interaction
-- reusable workflow design
-- enterprise-oriented AI tooling
-- context engineering
-- multi-stage AI workflows
+# Business Problem
 
-Each GPT is designed as a structured operational system rather than a simple prompt generator.
+Most AI repositories focus on:
+- prompt collections
+- isolated automations
+- single-step interactions
+- generic assistants
+
+This repository explores a different problem:
+
+> How can AI systems be structured as reusable operational workflows?
+
+The ecosystem is designed to improve:
+- interaction consistency
+- operational clarity
+- documentation quality
+- troubleshooting continuity
+- structured AI collaboration
+- reusable workflow systems
+
+---
+
+# Core Capabilities
+
+| Capability | Description |
+|---|---|
+| Structured AI Workflows | Multi-stage interaction systems instead of single prompts |
+| Operational Context Gathering | Guided workflows that reduce ambiguity |
+| Platform-Adaptive Responses | Output structures adapted to operational use cases |
+| Documentation Engineering | AI-assisted SOPs, KBs, and troubleshooting documentation |
+| Incident Analysis | Structured RCA and escalation-oriented workflows |
+| Prompt Architecture | Reusable prompt systems and workflow orchestration |
+| Hiring Operations | Operational candidate evaluation workflows |
 
 ---
 
 # Ecosystem Architecture
 
 <p align="center">
-  <img src="./assets/diagrams/system-architecture.png" width="1400"/>
+  <img src="./assets/diagrams/system-architecture.png" width="1200"/>
 </p>
 
-Enterprise AI Workflows is designed as a reusable ecosystem of operational AI workflow systems focused on:
-- prompt engineering
-- documentation operations
-- incident analysis
-- operational hiring workflows
+The repository is structured as a modular ecosystem of operational AI workflow systems.
 
-The ecosystem prioritizes:
-- reusable architectures
-- workflow continuity
+Each workflow follows a common interaction model:
+
+```text
+User Input
+   ↓
+Context Gathering
+   ↓
+Workflow Routing
+   ↓
+Structured Processing
+   ↓
+Operational Output
+   ↓
+Iterative Refinement
+```
+
+The architecture prioritizes:
+- reusable workflow design
 - operational consistency
-- scalable AI systems
-- structured AI interaction
+- modular GPT systems
+- scalable prompt structures
+- structured human-AI interaction
 
 ---
 
 # GPT Systems
 
-| GPT | Focus Area | Primary Purpose |
+| GPT System | Focus Area | Primary Function |
 |---|---|---|
-| Enterprise IT Candidate Evaluator | Hiring Operations | Operational candidate evaluation for IT Support and Service Desk environments |
-| IncidentOps Analyzer | Incident Operations | Enterprise incident analysis, troubleshooting workflows and RCA support |
-| SupportOps Documentation Builder | Documentation Operations | Structured operational documentation and knowledge management workflows |
-| PromptOps Architect | Prompt Engineering | Structured prompt engineering and AI workflow construction |
+| Enterprise IT Candidate Evaluator | Hiring Operations | Structured evaluation workflows for IT support hiring |
+| IncidentOps Analyzer | Incident Operations | Incident triage, RCA workflows, escalation analysis |
+| SupportOps Documentation Builder | Documentation Operations | SOPs, KBs, troubleshooting guides, operational documentation |
+| PromptOps Architect | Prompt Engineering | Prompt systems, workflow architecture, instruction design |
+
+---
+
+# Workflow Model
+
+Each GPT system follows a workflow-oriented interaction pattern instead of a generic chatbot model.
+
+## Standard Workflow Pattern
+
+```text
+1. Intake
+2. Context Collection
+3. Workflow Classification
+4. Structured Processing
+5. Operational Output
+6. Refinement Loop
+```
+
+## Design Characteristics
+
+- multi-stage interactions
+- guided operational workflows
+- reusable architecture patterns
+- context preservation
+- structured response systems
+- operational formatting standards
 
 ---
 
@@ -96,62 +189,131 @@ The ecosystem prioritizes:
 ```text
 enterprise-ai-workflows/
 │
+├── assets/
+│   ├── banners/
+│   ├── diagrams/
+│   ├── icons/
+│   └── screenshots/
+│
 ├── gpts/
 │   ├── enterprise-it-candidate-evaluator/
 │   ├── incidentops-analyzer/
 │   ├── promptops-architect/
 │   └── supportops-documentation-builder/
 │
-├── LICENSE
-└── README.md
+├── docs/
+│   ├── architecture/
+│   ├── workflows/
+│   └── examples/
+│
+├── README.md
+└── LICENSE
 ```
----
-
-# Core Architecture
-
-Each GPT system includes:
-
-* Structured Instructions
-* Enterprise Knowledge Frameworks
-* Multi-Stage Workflows
-* Session Continuity Logic
-* Help & Starter Systems
-* Platform-Adaptive Logic
-* Operational Response Standards
-
-The workflows are designed to:
-
-* reduce ambiguity
-* improve output consistency
-* improve operational usability
-* support reusable AI interactions
-* create scalable AI workflow systems
 
 ---
 
-# Workflow Design Principles
+# Quick Start
 
-These GPT systems prioritize:
+## Explore the GPT Systems
 
-* structured interaction
-* progressive context gathering
-* reusable architectures
-* workflow segmentation
-* operational clarity
-* platform adaptability
-* enterprise-oriented outputs
-
-The systems avoid:
-
-* generic AI interactions
-* shallow prompt generation
-* unstructured workflows
-* context fragmentation
-* excessive verbosity
+| GPT | Access |
+|---|---|
+| Enterprise IT Candidate Evaluator | <a href="https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator" target="_blank">Launch GPT</a> |
+| IncidentOps Analyzer | <a href="https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer" target="_blank">Launch GPT</a> |
+| SupportOps Documentation Builder | <a href="https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder" target="_blank">Launch GPT</a> |
+| PromptOps Architect | <a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">Launch GPT</a> |
 
 ---
 
-# Current GPT Systems
+## Recommended Exploration Path
+
+### 1. Start with SupportOps Documentation Builder
+
+Best introduction to the workflow-driven interaction model.
+
+Focus areas:
+- SOP generation
+- troubleshooting documentation
+- operational procedures
+- platform-adaptive formatting
+
+---
+
+### 2. Explore IncidentOps Analyzer
+
+Demonstrates structured troubleshooting and RCA workflows.
+
+Focus areas:
+- incident triage
+- escalation readiness
+- impact assessment
+- operational analysis
+
+---
+
+### 3. Review PromptOps Architect
+
+Shows reusable prompt architecture and workflow orchestration patterns.
+
+Focus areas:
+- context engineering
+- instruction architecture
+- reusable AI systems
+- structured prompting workflows
+
+---
+
+# Example Workflow
+
+## Incident Analysis Workflow
+
+```text
+Incident Intake
+   ↓
+Severity Classification
+   ↓
+Operational Context Gathering
+   ↓
+Impact Assessment
+   ↓
+Troubleshooting Workflow
+   ↓
+Root Cause Analysis
+   ↓
+Escalation Guidance
+   ↓
+Structured Incident Summary
+```
+
+This approach improves:
+- consistency
+- troubleshooting continuity
+- operational clarity
+- escalation readiness
+- documentation quality
+
+---
+
+# Design Principles
+
+The repository is intentionally designed around:
+
+| Principle | Focus |
+|---|---|
+| Workflow-Driven AI | Structured operational interaction |
+| Operational Clarity | Clear, actionable outputs |
+| Context Engineering | Progressive context gathering |
+| Reusability | Modular workflow architecture |
+| Human-in-the-Loop Design | AI-assisted, human-validated workflows |
+| Readability | Clean operational formatting |
+| Scalability | Reusable workflow systems |
+
+The repository intentionally avoids:
+- prompt dumping
+- generic chatbot behavior
+- overly abstract AI philosophy
+- unnecessary enterprise theater
+- fake governance structures
 
 ---
 
@@ -165,7 +327,7 @@ The systems avoid:
   <img src="./assets/icons/candidate-evaluator-icon.png" width="140"/>
 </p>
 
-Enterprise hiring workflow system for:
+Structured hiring workflow system for:
 - IT Support
 - Service Desk
 - Technical Support
@@ -180,7 +342,9 @@ Focused on:
 
 ### Open GPT
 
-<a href="https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator" target="_blank">Launch Enterprise IT Candidate Evaluator</a>
+<a href="https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator" target="_blank">
+Launch Enterprise IT Candidate Evaluator
+</a>
 
 ### Preview
 
@@ -196,7 +360,7 @@ Focused on:
   <img src="./assets/icons/incidentops-icon.png" width="140"/>
 </p>
 
-Enterprise incident analysis workflow system focused on:
+Operational incident analysis workflow system focused on:
 - incident triage
 - escalation readiness
 - root cause analysis
@@ -206,7 +370,9 @@ Enterprise incident analysis workflow system focused on:
 
 ### Open GPT
 
-<a href="https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer" target="_blank">Launch IncidentOps Analyzer</a>
+<a href="https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer" target="_blank">
+Launch IncidentOps Analyzer
+</a>
 
 ### Preview
 
@@ -222,7 +388,7 @@ Enterprise incident analysis workflow system focused on:
   <img src="./assets/icons/supportops-icon.png" width="140"/>
 </p>
 
-Enterprise documentation workflow system specialized in:
+Operational documentation workflow system specialized in:
 - SOP generation
 - troubleshooting documentation
 - operational procedures
@@ -232,7 +398,9 @@ Enterprise documentation workflow system specialized in:
 
 ### Open GPT
 
-<a href="https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder" target="_blank">Launch SupportOps Documentation Builder</a>
+<a href="https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder" target="_blank">
+Launch SupportOps Documentation Builder
+</a>
 
 ### Preview
 
@@ -248,17 +416,19 @@ Enterprise documentation workflow system specialized in:
   <img src="./assets/icons/promptops-icon.png" width="140"/>
 </p>
 
-Enterprise AI workflow system specialized in:
-- structured prompt engineering
+Structured AI workflow system specialized in:
+- prompt engineering
 - context engineering
 - instruction optimization
-- AI workflow architecture
-- reusable AI workflows
+- workflow architecture
+- reusable AI systems
 - platform-adaptive prompting
 
 ### Open GPT
 
-<a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">Launch PromptOps Architect</a>
+<a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">
+Launch PromptOps Architect
+</a>
 
 ### Preview
 
@@ -268,30 +438,54 @@ Enterprise AI workflow system specialized in:
 
 ---
 
-# Design Goals
+# Roadmap
 
-The main objective of this repository is to explore how AI systems can be structured as operational workflows instead of isolated prompts.
+## Current Focus
 
-This includes:
+- workflow refinement
+- architecture standardization
+- improved onboarding
+- reusable workflow templates
+- expanded operational examples
 
-* workflow continuity
-* instruction architecture
-* reusable systems
-* structured AI interaction
-* enterprise AI usability
+---
+
+## Planned Improvements
+
+- additional workflow systems
+- cross-GPT workflow orchestration
+- visual workflow documentation
+- expanded architecture diagrams
+- reusable documentation templates
+- operational workflow libraries
+
+---
+
+# Public GPT Access
+
+| GPT System | Public Access |
+|---|---|
+| Enterprise IT Candidate Evaluator | <a href="https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator" target="_blank">Open GPT</a> |
+| IncidentOps Analyzer | <a href="https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer" target="_blank">Open GPT</a> |
+| SupportOps Documentation Builder | <a href="https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder" target="_blank">Open GPT</a> |
+| PromptOps Architect | <a href="https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect" target="_blank">Open GPT</a> |
 
 ---
 
 # Author
 
 Roy Manotas
-IT Support • Support Operations • Workflow Design • AI Workflow Systems
 
-GitHub:
-[https://github.com/iamroymadelva](https://github.com/iamroymadelva)
+IT Support • Support Operations • Documentation Engineering • AI Workflow Systems
 
-LinkedIn:
-[https://www.linkedin.com/in/roymadelva](https://www.linkedin.com/in/roymadelva)
+### GitHub
+https://github.com/iamroymadelva
 
-```
-```
+### LinkedIn
+https://www.linkedin.com/in/roymadelva
+
+---
+
+# Repository Focus
+
+This repository is a portfolio and research project exploring how AI systems can be structured as operational workflow platforms instead of isolated prompt interactions.
