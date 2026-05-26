@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/icons/promptops-icon.png" width="120"/>
+  <img src="./assets/icons/promptops-icon.png" width="100"/>
 </p>
 
 <h1 align="center">Enterprise AI Workflows</h1>
@@ -50,7 +50,7 @@ The repository focuses on workflow-driven AI interactions, operational clarity, 
 
 # AI Workflow Systems
 
-| GPT System                        | Focus Area               | Primary Function                           |
+| GPT System                        | Focus Area               | Operational Focus                          |
 | --------------------------------- | ------------------------ | ------------------------------------------ |
 | Enterprise IT Candidate Evaluator | Hiring Operations        | Structured IT support evaluation workflows |
 | IncidentOps Analyzer              | Incident Operations      | Incident triage and RCA workflows          |
