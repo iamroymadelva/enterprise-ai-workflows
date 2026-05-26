@@ -1,99 +1,160 @@
 # IncidentOps Analyzer
 
 <p align="center">
-  <img src="../../assets/icons/incidentops-icon.png" width="160"/>
+  <img src="../../assets/icons/incidentops-icon.png" width="140"/>
 </p>
 
-Enterprise incident analysis and troubleshooting workflow system specialized in:
-- incident analysis
-- RCA workflows
-- escalation analysis
-- troubleshooting systems
-- operational risk evaluation
-- service degradation analysis
+Workflow-oriented incident analysis system focused on structured troubleshooting, escalation readiness, and root cause investigation.
 
 ---
 
-# Overview
+## Operational Focus
 
-IncidentOps Analyzer is designed as an enterprise incident operations workflow system instead of a generic troubleshooting assistant.
+IncidentOps Analyzer is designed for:
 
-The framework focuses on:
-- structured incident workflows
-- troubleshooting discipline
-- escalation awareness
-- RCA consistency
-- operational visibility
-- reusable operational systems
+* incident analysis
+* root cause workflows
+* escalation evaluation
+* operational troubleshooting
+* incident impact assessment
+* structured incident reporting
 
----
-
-# Core Capabilities
-
-- Incident analysis
-- RCA generation
-- Escalation evaluation
-- Troubleshooting workflows
-- Operational risk analysis
-- Service degradation assessment
-- Incident reporting
-- Operational incident summaries
-- Reusable troubleshooting systems
+The system prioritizes operational workflows instead of generic troubleshooting interactions.
 
 ---
 
-# Workflow Philosophy
+## Workflow Structure
 
-IncidentOps Analyzer treats troubleshooting as:
-- an operational incident workflow system
-NOT:
-- generic troubleshooting conversations.
+IncidentOps Analyzer follows a staged operational workflow model.
 
-The system guides users progressively through:
-1. Language Selection
-2. Incident Type
-3. Environment / Platform
-4. Incident Symptoms
-5. Severity & Impact
-6. Troubleshooting Performed
-7. Desired Outcome
-8. Output Structure
-9. Additional Context
-10. Draft Validation
-11. Final Incident Analysis
+```text
+Incident Intake
+      ↓
+Context Collection
+      ↓
+Severity Assessment
+      ↓
+Hypothesis Analysis
+      ↓
+Operational Evaluation
+      ↓
+Structured Output
+      ↓
+Iterative Refinement
+```
 
----
+The workflow is designed to improve:
 
-# Workflow Architecture
-
-<p align="center">
-  <img src="../../assets/diagrams/incidentops-workflow.png" width="1200"/>
-</p>
-
-IncidentOps Analyzer uses a progressive workflow designed to:
-- improve troubleshooting structure
-- improve RCA quality
-- reduce ambiguity
-- improve operational visibility
-- support escalation workflows
-- improve incident reproducibility
+* troubleshooting consistency
+* escalation quality
+* RCA structure
+* operational visibility
+* workflow continuity
 
 ---
 
-# Repository Files
+## Interaction Model
 
-| File | Purpose |
-|---|---|
-| instructions.md | Core GPT behavior and workflow logic |
-| knowledge-framework.md | Incident operations architecture and RCA framework |
-| workflow-overview.md | Multi-stage workflow explanation |
-| conversation-starters.md | Starter prompts and onboarding guidance |
-| example-use-cases.md | Real-world incident workflow examples |
-| public-gpt-link.md | Public GPT access and workflow overview |
+The GPT uses progressive workflow stages instead of isolated troubleshooting responses.
+
+### Core Workflow Patterns
+
+* intake-first interactions
+* hypothesis-based reasoning
+* evidence-aware analysis
+* staged troubleshooting
+* escalation readiness validation
+* iterative refinement
 
 ---
 
-# Preview
+## Operational Capabilities
+
+IncidentOps Analyzer supports workflows for:
+
+* SaaS incidents
+* authentication failures
+* infrastructure incidents
+* connectivity issues
+* API failures
+* monitoring alerts
+* operational degradations
+* escalation preparation
+
+---
+
+## Analysis Model
+
+The workflow prioritizes evidence-based operational analysis.
+
+### Core Analysis Areas
+
+| Area                 | Focus                                      |
+| -------------------- | ------------------------------------------ |
+| Incident Analysis    | Structured troubleshooting workflows       |
+| RCA Support          | Hypothesis-driven root cause analysis      |
+| Escalation Readiness | Validation of troubleshooting completeness |
+| Operational Impact   | Business and service impact visibility     |
+| Incident Continuity  | Structured progression tracking            |
+
+---
+
+## Workflow Characteristics
+
+Outputs are optimized for:
+
+* operational clarity
+* markdown readability
+* concise formatting
+* escalation readiness
+* structured troubleshooting
+* reusable incident documentation
+
+---
+
+## Example Workflow
+
+```text
+Incident Report
+      ↓
+Context Gathering
+      ↓
+Severity Validation
+      ↓
+Hypothesis Generation
+      ↓
+Operational Analysis
+      ↓
+Escalation Guidance
+      ↓
+Structured Incident Summary
+```
+
+---
+
+## Repository Structure
+
+```text
+incidentops-analyzer/
+│
+├── README.md
+├── architecture.md
+├── workflow.md
+├── examples.md
+└── screenshots/
+```
+
+---
+
+## Public GPT Access
+
+<a href="https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer" target="_blank">
+Launch IncidentOps Analyzer
+</a>
+
+---
+
+## Preview
 
 <p align="center">
   <img src="../../assets/screenshots/incidentops-home.png" width="1000"/>
@@ -101,130 +162,39 @@ IncidentOps Analyzer uses a progressive workflow designed to:
 
 ---
 
-# Design Principles
+## Documentation
 
-The framework prioritizes:
-- operational clarity
-- troubleshooting discipline
-- escalation awareness
-- RCA consistency
-- reusable workflows
-- incident reproducibility
+Additional documentation:
 
-The framework avoids:
-- vague troubleshooting
-- unsupported assumptions
-- random troubleshooting sequences
-- generic AI guidance
-- inconsistent RCA logic
+* [Architecture](./architecture.md)
+* [Workflow Structure](./workflow.md)
+* [Workflow Examples](./examples.md)
 
 ---
 
-# Supported Incident Workflows
+## Operational Principles
 
-Examples include:
-- service outages
-- authentication failures
-- VPN issues
-- degraded performance
-- infrastructure incidents
-- escalation scenarios
-- integration failures
-- operational disruptions
+IncidentOps Analyzer is designed around:
 
-The framework dynamically adapts depending on:
-- incident type
-- operational environment
-- severity
-- business impact
-- troubleshooting history
+* structured incident workflows
+* evidence-aware troubleshooting
+* escalation discipline
+* workflow continuity
+* operational realism
+* reusable analysis structures
 
----
+The system intentionally avoids:
 
-# Environment Adaptation
-
-The framework supports:
-- AWS
-- Azure
-- Active Directory
-- ServiceNow
-- SaaS platforms
-- VPN infrastructure
-- enterprise applications
-- internal operational systems
-
-The GPT must NEVER assume a default environment or infrastructure model.
+* vague troubleshooting
+* unsupported assumptions
+* random troubleshooting paths
+* generic chatbot behavior
+* shallow RCA analysis
 
 ---
 
-# Monitoring & Evidence Principles
+## Repository Role
 
-The framework supports:
-- logs
-- monitoring alerts
-- metrics
-- operational observations
-- incident timelines
-- escalation notes
+IncidentOps Analyzer functions as the incident operations workflow module within the Enterprise AI Workflows ecosystem.
 
-The GPT must NEVER invent:
-- logs
-- screenshots
-- monitoring events
-- operational evidence
-
----
-
-# Interaction Model
-
-IncidentOps Analyzer behaves like:
-- an Incident Response Specialist
-- a Senior Support Engineer
-- an Operations Analyst
-- a Troubleshooting Architect
-- a Service Reliability Consultant
-
-It is NOT designed to behave like a generic troubleshooting chatbot.
-
----
-
-# Example Use Cases
-
-IncidentOps Analyzer includes reusable workflow examples for:
-- production incident analysis
-- RCA workflows
-- escalation evaluation
-- troubleshooting systems
-- operational risk assessment
-- incident reporting
-
-Examples demonstrate:
-- structured troubleshooting
-- operational escalation logic
-- RCA discipline
-- incident reproducibility
-- reusable operational workflows
-
-See:
-- [Example Use Cases](./example-use-cases.md)
-
----
-
-# Public GPT
-
-<a href="https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer" target="_blank">Launch IncidentOps Analyzer</a>
-
----
-
-# Final Objective
-
-The objective of IncidentOps Analyzer is to create:
-- reusable incident workflows
-- scalable troubleshooting systems
-- operational RCA architectures
-- structured escalation systems
-
-instead of:
-- vague troubleshooting interactions
-- inconsistent incident analysis
-- generic operational guidance.
+The workflow architecture focuses on structured troubleshooting orchestration, escalation quality, and reusable operational incident analysis.
