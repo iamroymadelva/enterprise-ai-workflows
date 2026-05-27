@@ -1,6 +1,6 @@
 # Workflow Overview
 
-This document describes the operational workflow structure, interaction lifecycle, and orchestration patterns used across the Enterprise AI Workflows ecosystem.
+This document describes the workflow lifecycle, interaction patterns, and orchestration structure used across the Enterprise AI Workflows ecosystem.
 
 The repository is designed around workflow-oriented AI systems that prioritize structured interactions, context continuity, and operational output consistency.
 
@@ -18,37 +18,29 @@ Instead of treating AI systems as isolated prompt-response tools, each GPT is de
 * refining responses iteratively
 * preserving workflow continuity
 
-The primary goal is to create reusable AI-assisted operational workflows rather than standalone chatbot experiences.
+The goal is to create reusable operational workflows instead of standalone chatbot experiences.
 
 ---
 
 # Shared Workflow Lifecycle
 
-All GPT systems within the ecosystem follow a common workflow lifecycle.
+All GPT systems follow a common workflow lifecycle.
 
 ```text
 User Request
-   ↓
+      ↓
 Context Intake
-   ↓
+      ↓
 Workflow Classification
-   ↓
+      ↓
 Structured Processing
-   ↓
+      ↓
 Operational Output
-   ↓
+      ↓
 Iterative Refinement
 ```
 
-This lifecycle creates consistency across all workflow systems while allowing each GPT to specialize in a different operational domain.
-
-The workflow model prioritizes:
-
-* structured interactions
-* progressive context gathering
-* operational readability
-* reusable process flows
-* refinement-driven outputs
+This lifecycle creates consistency across the ecosystem while allowing each GPT to specialize in a different operational domain.
 
 ---
 
@@ -56,32 +48,30 @@ The workflow model prioritizes:
 
 ## 1. Intake
 
-The workflow begins with an initial operational request.
+The workflow begins with an operational request.
 
 Examples include:
 
 * incident reports
 * troubleshooting notes
 * documentation requests
-* prompt engineering tasks
+* workflow engineering tasks
 * candidate evaluation workflows
-
-The intake stage establishes the operational starting point for the workflow.
 
 ---
 
 ## 2. Context Collection
 
-The workflow progressively gathers additional context before generating outputs.
+The workflow progressively gathers operational context before generating outputs.
 
-This stage improves:
+This improves:
 
 * workflow accuracy
 * operational relevance
 * output structure
-* process continuity
+* workflow continuity
 
-Instead of relying on single-pass prompting, workflows are designed to refine context iteratively.
+The ecosystem intentionally avoids relying on isolated single-pass prompting.
 
 ---
 
@@ -93,15 +83,14 @@ The workflow determines:
 * processing structure
 * formatting requirements
 * workflow routing logic
-* refinement requirements
 
-This allows the ecosystem to maintain structured operational behavior across different use cases.
+This allows the ecosystem to maintain consistent operational behavior across different use cases.
 
 ---
 
 ## 4. Structured Processing
 
-The workflow processes the request using staged operational logic.
+The workflow processes requests using staged operational logic.
 
 Depending on the GPT system, this may include:
 
@@ -124,7 +113,6 @@ Outputs are optimized for:
 * markdown scanning
 * structured formatting
 * reusable documentation
-* workflow continuity
 
 The ecosystem prioritizes outputs that resemble operational workflows rather than generic conversational responses.
 
@@ -139,18 +127,15 @@ This allows users to:
 * improve outputs progressively
 * clarify requirements
 * extend workflows
-* restructure documentation
 * refine operational formatting
 
-The refinement loop is a core architectural pattern across the ecosystem.
+Iterative refinement is a shared architectural pattern across the ecosystem.
 
 ---
 
 # Context Collection Model
 
 Context collection is one of the central workflow patterns used throughout the repository.
-
-Each workflow progressively gathers operational information before generating structured outputs.
 
 ```text
 Initial Request
@@ -172,11 +157,9 @@ This interaction model improves:
 * documentation quality
 * output standardization
 
-The ecosystem intentionally avoids relying on isolated single-prompt interactions.
-
 ---
 
-# Operational Output Structure
+# Output Structure
 
 Outputs generated across the ecosystem follow shared formatting and readability principles.
 
@@ -186,7 +169,6 @@ Outputs generated across the ecosystem follow shared formatting and readability 
 * markdown-first formatting
 * scanning-oriented layout
 * reusable workflow organization
-* workflow continuity
 * structured sectioning
 
 ---
@@ -203,36 +185,6 @@ Outputs generated across the ecosystem follow shared formatting and readability 
 
 ---
 
-# Refinement Loops
-
-All workflows support iterative refinement.
-
-Instead of treating outputs as final responses, workflows are designed as progressive operational systems.
-
-```text
-Initial Output
-      ↓
-Feedback
-      ↓
-Refinement
-      ↓
-Improved Operational Output
-      ↓
-Continued Iteration
-```
-
-This approach improves:
-
-* documentation maturity
-* workflow precision
-* operational consistency
-* output usability
-* workflow adaptability
-
-The refinement model is shared across all GPT systems within the ecosystem.
-
----
-
 # GPT Workflow Specialization
 
 Each GPT focuses on a specialized operational workflow domain.
@@ -241,29 +193,22 @@ Each GPT focuses on a specialized operational workflow domain.
 
 ## Enterprise IT Candidate Evaluator
 
-Public GPT:
-https://chatgpt.com/g/g-6a14e6594618819190f712d15fb7fd40-enterprise-it-candidate-evaluator
-
 Workflow specialization:
 
-* structured hiring evaluation
+* technical candidate evaluation
 * troubleshooting maturity analysis
-* ATS alignment workflows
 * operational readiness assessment
-* technical support evaluation
+* structured hiring workflows
 
 Primary workflow focus:
 
 ```text
-Technical hiring workflow orchestration
+Technical evaluation workflows
 ```
 
 ---
 
 ## IncidentOps Analyzer
-
-Public GPT:
-https://chatgpt.com/g/g-6a14f60406bc8191a075f0966571baa8-incidentops-analyzer
 
 Workflow specialization:
 
@@ -276,15 +221,12 @@ Workflow specialization:
 Primary workflow focus:
 
 ```text
-Structured incident operations workflows
+Incident operations workflows
 ```
 
 ---
 
 ## SupportOps Documentation Builder
-
-Public GPT:
-https://chatgpt.com/g/g-6a14ffb74ab481918b779abb0e4baf25-supportops-documentation-builder
 
 Workflow specialization:
 
@@ -297,15 +239,12 @@ Workflow specialization:
 Primary workflow focus:
 
 ```text
-Operational documentation workflow generation
+Operational documentation workflows
 ```
 
 ---
 
 ## PromptOps Architect
-
-Public GPT:
-https://chatgpt.com/g/g-6a150583881c8191a58a0be62d710648-promptops-architect
 
 Workflow specialization:
 
@@ -313,12 +252,11 @@ Workflow specialization:
 * context engineering
 * reusable interaction design
 * workflow optimization
-* AI workflow structuring
 
 Primary workflow focus:
 
 ```text
-Reusable workflow architecture design
+Workflow architecture design
 ```
 
 ---
@@ -326,8 +264,6 @@ Reusable workflow architecture design
 # Cross-Workflow Interaction
 
 The ecosystem supports workflow-oriented orchestration between GPT systems.
-
-Outputs generated by one workflow can support downstream operational processes across the ecosystem.
 
 Example orchestration flow:
 
@@ -346,40 +282,6 @@ Workflow Optimization
 ```
 
 This orchestration model allows workflows to function as connected operational systems instead of isolated interactions.
-
----
-
-# Workflow Consistency Patterns
-
-All workflows follow shared operational patterns.
-
-## Intake-First Design
-
-Workflows gather operational context before generating outputs.
-
----
-
-## Context-Aware Interactions
-
-Workflows progressively refine information through staged interactions.
-
----
-
-## Structured Outputs
-
-Outputs prioritize readability, operational clarity, and reusable formatting.
-
----
-
-## Iterative Refinement
-
-Workflows are designed to evolve progressively through continued interaction.
-
----
-
-## Modular Workflow Design
-
-Each GPT functions as a specialized operational workflow component within the ecosystem.
 
 ---
 
@@ -439,9 +341,9 @@ Reusable Prompt System
 
 # Workflow Design Principles
 
-The ecosystem follows a consistent operational workflow philosophy.
+The ecosystem follows a shared workflow philosophy.
 
-## Core Workflow Principles
+## Core Principles
 
 | Principle                     | Focus                               |
 | ----------------------------- | ----------------------------------- |
@@ -451,7 +353,6 @@ The ecosystem follows a consistent operational workflow philosophy.
 | Modular Design                | Reusable workflow systems           |
 | Refinement-Driven Interaction | Iterative operational improvement   |
 | Documentation Readability     | Scanning-first markdown formatting  |
-| Workflow Reusability          | Shared interaction patterns         |
 
 ---
 
@@ -465,6 +366,5 @@ The repository prioritizes:
 * operational consistency
 * structured documentation
 * reusable interaction models
-* refinement-driven workflows
 * operational readability
 * modular AI systems
